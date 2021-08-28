@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.herobox {
+    padding: 100px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1300px;
+    /* margin-left: auto; */
+    /* margin-right: 450px; */
+    margin-left: 75px;
+    margin-top: 180px;
+    
+}
+.home {
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leftside-herobox {
+    height: 60%;
+    min-width: 400px;
+
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+}
+
+h3 {
+    align-items: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.rightside-herobox {
+    margin-left: 50px;
+    
+}
+
+.button-resume {
+    border: none;
+    background-color: #FF6464;
+    color: blanchedalmond;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 30px 0px;
+    /* cursor: pointer; */
+  
+    
+}
+
+.button-resume:hover {
+    background-color: #24406f;
+    transition: all 0.2s linear;    
+  }
+
+
+  .passions-container {
+    padding: 100px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1300px;
+    margin-left: 75px;
+    background-color: white;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .card {
+      width: 250px;
+      height: 70%;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px -8px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 20px;
+
+  }
+
+  .top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
